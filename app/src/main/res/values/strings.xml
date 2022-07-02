@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioDeviceKit</string>
+    <string name="current_device">Current Device: </string>
+    <string name="connection_status">Connection Status: </string>
+    <string name="scan">Scan Device</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="send_AT_cmd">Send</string>
+    <string name="found_device">Found Devices</string>
+    <string name="cmd_sent_result">------Command Result------</string>
+    <string name="notify_data">-----Response Data-----</string>
+    <string name="sensor_data">-----Sensor data reporting (%1$d)------</string>
+
+    <string name="disconnected">Disconnected</string>
+    <string name="not_initialized">Not initialized</string>
+    <string name="connecting">Connecting</string>
+    <string name="connected">Connected</string>
+    <string name="data_channel_ready">Data channel ready</string>
+    <string name="unknown">unknown -> </string>
+    <string name="intensity_max">Intensity Maximum</string>
+    <string name="intensity_min">Intensity Minimum</string>
+    <string name="polar_angle">Polarization Angle</string>
+    <string name="transmission_angle">Angle of Transmission Direction</string>
+    <string name="transmission_intensity">Transmission Intensity</string>
+    <string name="blank"> </string>
+    <string name="next">Next</string>
+
+    <string-array name="guide">
+        <item>1 仪器调节\n
+            1.1 打开数字检流计、半导体激光器预热 10 分钟；
+            ###1.2 依次放置半导体红色激光器、偏振片1、偏振片2、硅光电探头；调整光路等高共轴。先安装靠近硅光电探头的偏振片2，调整偏振片及激光器，使激光束入射到偏振片的中心，且其反射的光斑与激光器出射口重合。再安装并调整靠近激光器的偏振片 1，使激光束入射到偏振片 1
+            ###1.3 检流计零点检查。数字检流计分为 1、2、3、4 档（看表头小数点所在位置），量程依次增大，灵敏度依次递减。选择所需要的量程，将光电探头完全遮挡或反扣在桌面上检查零点，使窗口显示为“-000”（负号闪烁），注意此时，避免环境光进入。本实验需要在同一档内完成测量。
+            ###1.4 安装光电探头，使激光束入射到光电探头中心。</item>
+        <item>2 测量半导体激光器的偏振度\n
+            2.1 以偏振片 1 为检偏器，测量半导体激光器的偏振度。旋转检偏器找到光强最强的位置，记录角度和光强值 Imax。再旋转检偏器找到光强最弱的位置，记录角度和光强值 Imin。根据公式计算激光的偏振度 P。</item>
+        <item>3 验证马吕斯定律\n
+            3.1 以偏振片 1 为起偏器获得线偏光，以偏振片 2 为检偏器验证马吕斯定律。
+            ###3.2 调整待检测的线偏光强度（衰减旋钮逆时针旋到底时，检流计示数不超过 1000）。如入射到光电探头上的光强过强，检流计的示数与光强之间的关系会偏离线性，发生饱和，甚至损坏光电探头。为使得待检测的线偏光强度不超过光电探头的线性区，可以通过调节起偏器的位置改变待检测线偏光强度
+            ###3.3 固定起偏器的角度，调整检偏器的角度。将检偏器旋转一周，检验光强是否超过线性区，且光强都在所选档量程范围内
+            ###3.4 旋转检偏器，使得检流计示数最小，此时起偏器与检偏器透振方向垂直，对应透振方向夹角θ 为 90º
+            ###3.5 保持起偏器方位不变，并假定激光光强稳定，光强为 I0 ；旋转检偏器使透振方向夹角 θ 从0º至350º，每隔 10º左右测量经检偏器后的透射光强，列表记录检偏器的角度及透射光强</item>
+    </string-array>
+</resources>
