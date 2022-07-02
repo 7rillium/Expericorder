@@ -49,6 +49,5 @@ $ ./gradlew build
 ```
 
 ## User Guidance
-![UI1](https://user-images.githubusercontent.com/59912481/177004616-16623c9a-8f44-4acc-8f12-ec804c4fbd59.png)
-![UI2](https://user-images.githubusercontent.com/59912481/177004619-c5968558-7337-498b-afd5-37a835f74f6e.jpg)
+<img src="UI1.jpg" alt="UI1" style="zoom: 25%;" /><img src="UI2.jpg" alt="UI2" style="zoom:25%;" />
 Demo video: refer to doc/pre.pptx
