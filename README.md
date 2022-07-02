@@ -51,3 +51,11 @@ $ ./gradlew build
 ## User Guidance
 <img src="UI1.jpg" alt="UI1" style="zoom: 25%;" /><img src="UI2.jpg" alt="UI2" style="zoom:25%;" />
 Demo video: refer to doc/pre.pptx
+
+## Contributors
+online:
+- lyw: the best designer!!!
+offline:
+- lsy: 100%
+- yjn: 100%
+- zlq: 100%
